@@ -24,7 +24,7 @@ public class driver {
 		ChromeOptions options = new ChromeOptions(); 
 		options.addArguments("disable-infobars");
 		options.addArguments("--disable-extensions");
-		options.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
+		options.addArguments("window-size=1024,768", "--no-sandbox");
 		DesiredCapabilities dc = new DesiredCapabilities();
 	    dc.setCapability(ChromeOptions.CAPABILITY, options);
 		driver = new ChromeDriver(options); 	
