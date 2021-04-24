@@ -36,6 +36,10 @@
 						<!-- TestNG suite XML files -->
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+						<executionBrowser>Chrome</executionBrowser>
+						<appURL>https://www.facebook.com/</appURL>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>
